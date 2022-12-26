@@ -20,7 +20,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
   Widget build(BuildContext context) {
     List<ExperienceModel> experienceList = [
       ExperienceModel(
-          desig: Strings.expDesig3,
+          design: Strings.expDesig3,
           compName: Strings.expCompName3,
           duration: Strings.expDur3,
           points: Column(
@@ -40,7 +40,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                     Container(
                       width: AppClass().getMqWidth(context) * 0.35,
                       child: Text(
-                        Strings.expAbout1,
+                        Strings.expAbout3,
                         style: TextStyle(
                             color: AppColors().textLight,
                             letterSpacing: 1,
@@ -67,7 +67,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                     Container(
                       width: AppClass().getMqWidth(context) * 0.35,
                       child: Text(
-                        Strings.expAbout1_2,
+                        Strings.expAbout3_2,
                         style: TextStyle(
                             color: AppColors().textLight,
                             letterSpacing: 1,
@@ -87,14 +87,14 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                       padding: const EdgeInsets.only(right: 5.0),
                       child: Icon(
                         Icons.arrow_right,
-                        color: AppColors().neonColor,
+                        color: AppColors().primaryColor,
                         size: 20,
                       ),
                     ),
                     Container(
                       width: AppClass().getMqWidth(context) * 0.35,
                       child: Text(
-                        Strings.expAbout1_3,
+                        Strings.expAbout3_3,
                         style: TextStyle(
                             color: AppColors().textLight,
                             letterSpacing: 1,
@@ -109,7 +109,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
             ],
           )),
       ExperienceModel(
-          desig: Strings.expDesig2,
+          design: Strings.expDesig2,
           compName: Strings.expCompName2,
           duration: Strings.expDur2,
           points: Column(
@@ -198,7 +198,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
             ],
           )),
       ExperienceModel(
-          desig: Strings.expDesig1,
+          design: Strings.expDesig1,
           compName: Strings.expCompName1,
           duration: Strings.expDur1,
           points: Column(
@@ -218,7 +218,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                     Container(
                       width: AppClass().getMqWidth(context) * 0.35,
                       child: Text(
-                        Strings.expAbout3,
+                        Strings.expAbout1,
                         style: TextStyle(
                             color: AppColors().textLight,
                             letterSpacing: 1,
@@ -245,7 +245,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                     Container(
                       width: AppClass().getMqWidth(context) * 0.35,
                       child: Text(
-                        Strings.expAbout3_2,
+                        Strings.expAbout1_2,
                         style: TextStyle(
                             color: AppColors().textLight,
                             letterSpacing: 1,
@@ -272,7 +272,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                     Container(
                       width: AppClass().getMqWidth(context) * 0.35,
                       child: Text(
-                        Strings.expAbout3_3,
+                        Strings.expAbout1_3,
                         style: TextStyle(
                             color: AppColors().textLight,
                             letterSpacing: 1,
@@ -434,7 +434,7 @@ class _ExperienceWebState extends State<ExperienceWeb> {
                       children: [
                         RichText(
                           text: TextSpan(
-                              text: experienceList[data].desig,
+                              text: experienceList[data].design,
                               style: GoogleFonts.roboto(
                                   color: AppColors().textColor,
                                   fontWeight: FontWeight.bold,

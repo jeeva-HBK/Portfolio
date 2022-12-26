@@ -20,7 +20,7 @@ class _ExperienceMobileState extends State<ExperienceMobile> {
   Widget build(BuildContext context) {
     List<ExperienceModel> experienceList = [
       ExperienceModel(
-          desig: Strings.expDesig3,
+          design: Strings.expDesig3,
           compName: Strings.expCompName3,
           duration: Strings.expDur3,
           points: Column(
@@ -109,7 +109,7 @@ class _ExperienceMobileState extends State<ExperienceMobile> {
             ],
           )),
       ExperienceModel(
-          desig: Strings.expDesig2,
+          design: Strings.expDesig2,
           compName: Strings.expCompName2,
           duration: Strings.expDur2,
           points: Column(
@@ -198,7 +198,7 @@ class _ExperienceMobileState extends State<ExperienceMobile> {
             ],
           )),
       ExperienceModel(
-          desig: Strings.expDesig1,
+          design: Strings.expDesig1,
           compName: Strings.expCompName1,
           duration: Strings.expDur1,
           points: Column(
@@ -431,7 +431,7 @@ class _ExperienceMobileState extends State<ExperienceMobile> {
                       children: [
                         RichText(
                           text: TextSpan(
-                              text: experienceList[data].desig,
+                              text: experienceList[data].design,
                               style: GoogleFonts.roboto(
                                   color: AppColors().textColor,
                                   fontWeight: FontWeight.bold,

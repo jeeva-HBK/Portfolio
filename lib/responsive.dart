@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:portfolio/resource/appClass.dart';
 
 class Responsive extends StatefulWidget {
-  var mobileView, webView, tabView;
+  final mobileView, webView, tabView;
 
   Responsive({Key? key, this.mobileView, this.tabView, this.webView})
       : super(key: key);
